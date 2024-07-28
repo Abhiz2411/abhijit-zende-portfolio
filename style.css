@@ -468,15 +468,18 @@ footer p {
 
 
 .color-on-hover {
-  filter: grayscale(100%); /* Makes the image black and white */
+  /*filter: grayscale(100%); /* Makes the image black and white */
   transition: filter 0.5s ease, transform 0.5s ease; /* Smooth transition for both filter and transform */
   transform: scale(1); /* Default scale */
 }
 
 .color-on-hover:hover {
-  filter: grayscale(0%); /* Removes grayscale to show original colors */
+  /*filter: grayscale(0%); /* Removes grayscale to show original colors */
   transform: scale(1.1); /* Zooms in the image slightly */
 }
+
+
+
 
 
 
