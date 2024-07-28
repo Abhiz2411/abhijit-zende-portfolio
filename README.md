@@ -2,6 +2,8 @@
 
 Welcome to the digital showcase of my work and skills! This sleek, minimalist portfolio website is designed to highlight my projects and abilities without unnecessary clutter.
 
+## Live Preview: https://abhijit-zende.vercel.app/
+
 ## 🎨 Features
 
 - Clean, modern design
