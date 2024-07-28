@@ -60,10 +60,13 @@ a:hover {
 
 .logo {
   font-size: 2rem;
+  transition: opacity 0.3s ease;
+  opacity: 1;
 }
 
 .logo:hover {
   cursor: default;
+  opacity: 0.7; /* Fades the element to 70% opacity */
 }
 
 /* HAMBURGER MENU */
@@ -444,3 +447,36 @@ footer p {
   height: 50px;
   margin-bottom: 32px;
 }
+
+.zoom-anim-class {
+  transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
+}
+
+.zoom-anim-class:hover {
+  transform: scale(1.1); /* Zooms the element to 110% of its original size */
+}
+
+.shadow-anim-class {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.shadow-anim-class:hover {
+  transform: translateY(-5px); /* Lifts the element up slightly */
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Increases shadow */
+}
+
+
+.color-on-hover {
+  filter: grayscale(100%); /* Makes the image black and white */
+  transition: filter 0.5s ease, transform 0.5s ease; /* Smooth transition for both filter and transform */
+  transform: scale(1); /* Default scale */
+}
+
+.color-on-hover:hover {
+  filter: grayscale(0%); /* Removes grayscale to show original colors */
+  transform: scale(1.1); /* Zooms in the image slightly */
+}
+
+
+
