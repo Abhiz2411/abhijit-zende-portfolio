@@ -4,3 +4,5 @@ project-2.png
 project-3.png
 profile-pic.png
 profile-pic-2.png
+*.yaml
+.gitignore
